@@ -45,9 +45,6 @@ jobs:
         name: Install Python
         with:
           python-version: '3.10'
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
         with:
@@ -230,9 +227,6 @@ jobs:
         name: Install Python
         with:
           python-version: '3.10'
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
         with:
@@ -267,9 +261,6 @@ jobs:
         name: Install Python
         with:
           python-version: '3.13'
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
         with:
